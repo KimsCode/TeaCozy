@@ -34,3 +34,41 @@ header span {
 header a {
   color: seashell;
 }
+
+/* Main Content */
+
+.maincontainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 70px;
+}
+/* Mission Content */
+
+#mission {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 700px;
+  padding: 70px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Contact Section */
+
+#contact {
+  display: block;
+  align-content: space-between;
+  height: 200px;
+}
+
+/* Footer Section */
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
